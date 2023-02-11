@@ -1,0 +1,1096 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    padding: 0 12%;
+}::-webkit-scrollbar{
+    width: 00.5rem;
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background: #6b492e;
+    border-radius: 0.25rem;
+}
+.window-scrolled{
+    background: #fff;
+    border-bottom: 0.2rem solid var(--color-bg-3);
+ }
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 16px 8%;
+}
+.logo img{
+    margin-top: 3px;
+    width: 40px;
+    height: auto;
+}
+.navbar{
+    margin-top: 20px;
+    display: flex;
+}
+.navbar a{
+    font-size: 17px;
+    font-weight: 200;
+    color: #000;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-bottom: 2px solid transparent;
+    margin: 0 20px;
+    transition: .40s;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #6b492e;
+    color: #6b492e;
+}
+#menu-icon{
+    font-size: 30px;
+    color: #000;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+.cart{
+    margin-top: 5px;
+    color: #000;
+    font-size: 30px;
+    transition: .3s;
+}
+.cart:hover{
+    color: #6b492e;
+    transform: translateY(-7px);
+     
+}
+/*======== home =====*/
+.home {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.home-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.home-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7%;
+  }
+.home-text {
+    width: 50%;
+    padding: 2rem;
+}
+
+.home-text h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #6b492e;
+    font-family: "Dancing Script", cursive;
+}
+.home-text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #6b492e;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0;
+  }
+  
+.home-text p {
+    color:#6b492e;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}  
+.home-text a {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    border-radius: 17px;
+    background-color: #6b492e;
+    transition: all .42s;
+}
+.home-text .btn{
+    margin-left: 20px
+}  
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*---======= home2 ======----*/
+.home2 {
+    display: flex;
+    background-color: #efede9e4;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+  }
+  
+  .home2-text {
+    width: 50%;
+    padding: 2rem;
+    text-align: center;
+}
+  
+.home2-text h1 {
+    font-family: "Poppins", sans-serif;
+    color: #6b492e;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0;
+    margin-bottom: 1rem;
+}
+.home2-text h4{
+    font-family: "Dancing Script", cursive;
+    color: #6b492e;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.home2-text p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color:#6b492e;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 2.25rem;
+}
+.home2-text a {
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding: 12px 30px;
+    border-radius: 17px;
+    background-color: #6b492e;
+    transition: all .42s
+}
+.home2-text .btn{
+    margin-left: 20px
+}  
+.home2-text a:hover{
+    background-color:#efede9e4 ;
+    color: #6b492e;
+}
+
+  .home2-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home2-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*---===== about ====--*/
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+  
+  .about-img {
+    width: 50%;
+    
+  }
+  
+  .about-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 7%;
+  }
+  
+  .about-text {
+    width: 50%;
+    order: 1;
+    text-align: center;
+    padding: 2rem;
+  }
+  .about-text h4{
+    font-family: "Dancing Script", cursive;
+    color: #6b492e;
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .about-text h1{
+    font-family: "Poppins", sans-serif;
+    color: #6b492e;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .about h3{
+    font-family: "Poppins", sans-serif;
+    color: #6b492e;
+    margin-top: 50px;
+    font-weight: 800;
+  }
+  .about p{
+    color:#6b492e;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 2.25rem;
+  }
+  /*---==== about2 ====--*/
+  .about2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about2-text {
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+.about2-img {
+    width: 40%;
+    padding: 50px;
+}
+.about2-img img {
+    width: 100%;
+    height: auto;
+}
+.about2-text h4{
+  font-family: "Dancing Script", cursive;
+  color: #6b492e;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.about2-text h1{
+  font-family: "Poppins", sans-serif;
+  color: #6b492e;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+.about2-text p{
+  color:#6b492e;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  margin-bottom: 2.25rem;
+}
+.about2-text a{
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  padding: 12px 30px;
+  border-radius: 17px;
+  background-color: #6b492e;
+  transition: all .42s;
+}
+.about2-text a:hover{
+  background-color:#efede9e4 ;
+  color: #6b492e;
+}
+  /*-===== Vlog =====----*/
+  .vlog {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .vlog h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: "Dancing Script", cursive;
+    color: #6b492e;
+  }
+  
+  .vlog h4 {
+    color:#6b492e;
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-bottom: 2.25rem;
+    margin-left: 200px;
+  }
+  
+  .y-video {
+    display: grid;
+    grid-template-columns:repeat(2,2fr);
+    margin-right: 45px;
+    gap: 2rem;
+  }
+  
+  .y-video iframe {
+    margin: 20px;
+    width: 530px;
+    height: 315px;
+  }
+  
+  .vlog a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b492e;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .vlog i{
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 2rem;
+    color:#fff;
+    vertical-align: middle;
+}
+.vlog a:hover{
+    background-color: red;
+    color: #fff;
+}
+/* ----====== Vlog Page ====*/
+.vlog2{
+   display: flex;
+    margin-top: 160px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+.vlog2-img{
+   width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vlog2-img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 7%;
+}
+.vlog2-text{
+  width: 50%;
+  padding: 2rem;
+}
+.vlog2-text h4{
+    font-size: 2.25rem;
+    font-weight: 500;
+    
+    margin-bottom: 10px;
+    color: #6b492e;
+    font-family: "Dancing Script", cursive;
+}
+.vlog2-text h1{
+  font-family: "Poppins", sans-serif;
+  color: #6b492e;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+.vlog2-text p{
+  color:#6b492e;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+/* ----====== TY ====*/
+.TY{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.TY-video{
+  display: grid;
+  grid-template-columns:repeat(2,2fr);
+  margin-right: 45px;
+  gap: 1rem;
+}
+
+.TY-video iframe {
+    width: 530px;
+    height: 315x;
+    margin: 20px;
+}
+.TY a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6b492e;
+  color: #fff;
+  text-transform: capitalize;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 18px;
+}
+.TY i{
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 2rem;
+  color:#fff;
+  vertical-align: middle;
+}
+.TY a:hover{
+  background-color: red;
+  color: #fff;
+}
+/*--==== QUALIF ====--*/
+.skills{
+    margin-top: 113px;
+    margin-bottom: 90px;
+}
+
+.row{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: -4rem;
+}
+
+.skills-col-1{
+   flex-basis: 35%;
+}
+
+
+.skills-col-1 img{
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.skills-col-2{
+   flex-basis: 60%;
+   margin-top: 1.5rem;
+}
+
+.sub-title{
+   font-size: 60px;
+   font-weight: 600;
+   color: #6b492e;
+}
+.tab-titles{
+   display: flex;
+   margin: 20px 0 40px;
+}
+.tab-links{
+   margin-right: 50px;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   position: relative;
+}
+.tab-links::after{
+   content: '';
+   width:0;
+   height: 3px;
+   background: #6b492e;
+   position: absolute;
+   left: 0;
+   bottom: -8px;
+   transition: 0.5s;
+}
+.tab-links.active-link::after{
+   width: 50%;
+}
+.tab-contents ul li{
+   list-style: none; 
+   margin: 10px 0;
+}
+
+.tab-contents{
+   display: none;
+}
+.tab-contents.active-tab{
+   display: block;
+}
+/* ----====== contact ====*/
+.t-form{
+  margin-top: 140px;
+}
+form {
+  width: 500px;
+  margin-top: 140px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #eee9e5;
+  border-radius: 10px;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  color: #8d5a30;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #8d5a30;
+  color: white;
+  cursor: pointer;
+}
+
+/* ----====== Footer ====*/
+footer {
+    background-color:#8d5a30;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1055px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .menu, .social-icons, .contact {
+    width: 30%;
+    text-align:left;
+  }
+  .container h3{
+    color: #fff;
+  }
+  .menu a{
+    width: 30%;
+    text-align: left;
+    color: #fff;
+  }
+.social-icons a{
+  margin-top: 4px;
+  font-weight: 800;
+  color: #fff;
+  display: inline-block
+}
+.contact a{
+  color: #fff;
+}
+@media screen and (max-width:1345px) {
+    header{
+        padding: 26px 3px;
+        transition: .3s;
+    }
+    .home-text h1 {
+        font-size: 2.25rem;
+      }
+    
+      .home-text p {
+        font-size: 1.25rem;
+      }
+    
+      .home-text a {
+        font-size: 1.25rem;
+      }
+     /*--==== home2 ====-*/ 
+      .home2-text h1 {
+        font-size: 2.25rem;
+      }
+    
+      .home2-text p {
+        font-size: 1.25rem;
+      }
+    
+      .home2-text a {
+        font-size: 1.25rem;
+      }
+      /*---===== Vlog =====--*/
+      .vlog h1 {
+        font-size: 40px;
+      }
+    
+      .vlog h4 {
+        font-size: 20px;
+      }
+    
+      .y-video iframe {
+        width: 450px;
+        height: 250px;
+      }
+      /*---===== Vlog page =====--*/
+      .vlog-text h1{
+        font-size: 2rem;
+      }
+      .vlog-text p {
+        font-size: 1.15rem;
+      }
+      .vlog-text a {
+        font-size: 1.15rem;
+      }
+      /* ----====== TY ====*/
+      .TY-video iframe {
+        width: 450px;
+        height: 250px;
+      }
+      /*--==== About ===---*/
+      .about-img {
+        width: 60%;
+      }
+      .about-text {
+        width: 40%;
+      }
+      /*-==== About2 ===--*/
+      .about2-text {
+        width: 70%;
+    }
+  
+    .about2-img {
+        width: 30%;
+    }
+    /*--==== Qualif ===---*/
+    .skills-col-1{
+      flex-basis: 35%;
+   }
+   .sub-title{
+      font-size: 60px;
+   }
+   .tab-links{
+      margin-right: 50px;
+      font-size: 18px;
+   }
+   form {
+    width: 40%;
+  }
+  
+      /*-==== footer ===--*/
+      form {
+        width: 40%;
+      }
+
+}
+@media screen and (max-width:1055px) {
+    .home-text h1 {
+        font-size: 2rem;
+      }
+    
+      .home-text p {
+        font-size: 1.15rem;
+      }
+    
+      .home-text a {
+        font-size: 1.15rem;
+      }
+    /*---======= home2 ====--*/  
+      .home2-text h1 {
+        font-size: 2rem;
+      }
+    
+      .home2-text p {
+        font-size: 1.15rem;
+      }
+    
+      .home2-text a {
+        font-size: 1.15rem;
+      }
+      /*---===== Vlog Page ====---*/
+      .vlog2-text h1{
+        font-size: 2rem;
+      }
+      .vlog2-text p{
+        font-size: 1.15rem;
+      }
+      /*---===== Vlog ====---*/
+      .vlog h1 {
+        font-size: 32px;
+      }
+    
+      .vlog h4 {
+        font-size: 18px;
+      }
+    
+      .y-video iframe {
+        width: 350px;
+        height: 200px;
+      }
+      /*--===== about ====--*/
+      .about-img {
+        width: 70%;
+      }
+      .about-text {
+        width: 30%;
+      }
+      /*-==== About2 ===--*/
+      .about2-text {
+        width: 70%;
+    }
+    .about2-img {
+        width: 30%;
+    }
+    /* ----====== TY ====*/
+       .TY-video iframe {
+        width: 350px;
+        height: 200px;
+      }
+      /*--==== Qualif ===---*/
+      .skills-col-1{
+        flex-basis: 45%;
+     }
+     .sub-title{
+        font-size: 50px;
+     }
+     .tab-links{
+        margin-right: 30px;
+        font-size: 16px;
+     }
+     
+      /*--===== footer ===---*/
+      form {
+        width: 50%;
+      }   
+      
+}
+@media (max-width: 914px) {
+    .home {
+        flex-direction: column;
+      }
+    
+      .home-img {
+        width: 100%;
+      }
+    
+      .home-text {
+        width: 100%;
+        padding: 1rem;
+      }
+    
+      .home-text h1 {
+        font-size: 1.75rem;
+      }
+    
+      .home-text p {
+        font-size: 1.1rem;
+      }
+    
+      .home-text a {
+        font-size: 1.1rem;
+      }    
+    /*--===== home2 ====---*/
+    .home2 {
+        flex-direction: column;
+      }
+    
+      .home2-text {
+        width: 100%;
+        padding: 1rem;
+      }
+    
+      .home2-img {
+        width: 100%;
+      }
+    
+      .home2-text h1 {
+        font-size: 1.75rem;
+      }
+    
+      .home2-text p {
+        font-size: 1.1rem;
+      }
+    
+      .home2-text a {
+        font-size: 1.1rem;
+      }
+     /*---===== Vlog page ====---*/
+      .vlog2{
+        flex-direction: column;
+      }
+      .vlog2-img{
+        width: 100%;
+      }
+      .vlog2-text{
+        width: 100%;
+        padding: 1rem;
+      }
+      .vlog2-text h1{
+        font-size: 1.75rem;
+      }
+      .vlog2-text h4{
+        margin: 0;
+      }
+      .vlog2-text p{
+        font-size: 1.1rem;
+      }
+      
+  
+    /*--==== Vlog ====--*/
+    .vlog h1 {
+        font-size: 28px;
+      }
+    
+      .vlog h4 {
+        font-size: 16px;
+      }
+    
+      .y-video iframe {
+        width: 300px;
+        height: 170px;
+      }
+       /*---===== TY ====--*/
+       .y-video iframe {
+        width: 300px;
+        height: 170px;
+      }
+      /*--==== About ===---*/
+      .about-img {
+        width: 80%;
+      }
+      .about-text {
+        width: 20%;
+      }
+       /*-==== About2 ===--*/
+       .about2-text {
+        width: 90%;
+      }
+      .about2-img {
+        width: 10%;
+     }
+     /*--====Qualifa ===---*/
+     .skills-col-1{
+      flex-basis: 50%;
+   }
+   .sub-title{
+      font-size: 40px;
+   }
+   .tab-links{
+      margin-right: 20px;
+      font-size: 14px;
+   }
+   
+      /*--===== footer ===---*/
+      form {
+        width: 60%;
+      } 
+         
+}
+@media screen and (max-width:785px) {
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: #404040;
+        text-align: center;
+        transform: all .40s;
+    }
+    .navbar a{
+         display: block;
+         padding: 16px;
+         margin: 8px;
+         color: #fff;
+         border-left: 2px solid #fff;
+    }
+    .navbar.open{
+        top: 100%;
+    }
+    .home-text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .home-text p {
+      font-size: 1rem;
+    }
+  
+    .home-text a {
+      font-size: 1rem;
+    }
+    .home-text .btn{
+      margin-top: 12px;
+      margin-left: 4px;
+    }
+    /*--==== home2 ====---*/
+    .home2-text h1 {
+        font-size: 1.5rem;
+      }
+    
+      .home2-text p {
+        font-size: 1rem;
+      }
+    
+      .home2-text a {
+        font-size: 1rem;
+      } 
+      .home2-text .btn{
+        margin-top: 14px;
+        margin-left: 9px;
+      }
+    /*---===== Vlog page ====---*/
+    .vlog2-text h1{
+      font-size: 1.5rem;
+    }
+    .vlog2-text p{
+      font-size: 1rem;
+    }
+    .v
+    /*---==== Vlog ====---*/
+    .vlog h1 {
+        font-size: 24px;
+      }
+    
+      .vlog h4 {
+        font-size: 15px;
+        margin-left: 2px;
+        padding-left: 20px;
+        padding-right: 40px;
+      }
+      .y-video{
+        display: block;
+        margin-right: 11px;
+      }
+      .y-video iframe {
+        width: 300px;
+        height: 215px;
+      } 
+      /*--==== TY ===---*/
+      .TY-video{
+        display: block;
+        margin-right: 11px;
+      }
+      .TY-video iframe {
+        width: 300px;
+        height: 215px;
+      } 
+      .TY a{
+        margin-left: 0;
+      }
+      /*---===== about ====---*/
+      .about {
+        flex-direction: column;
+      }
+      .about-img {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .about-text {
+        width: 100%;
+      }
+      /*-==== About2 ===--*/
+      .about2 {
+        flex-direction: column;
+    }
+  
+    .about2-text {
+        width: 100%;
+    }
+  
+    .about2-img {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }     
+    /*--==== Qualif ===---*/
+    .skills-col-1{
+      flex-basis: 60%;
+   }
+   .sub-title{
+      font-size: 30px;
+   }
+   .tab-links{
+      margin-right: 10px;
+      font-size: 12px;
+   } 
+    
+      /*--===== footer ===---*/     
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+  .menu, .social-icons, .contact {
+        width: 50%;
+        margin-bottom: 20px;
+        text-align: center;
+  }
+  h3 {
+      margin-bottom: 20px;
+  }
+    
+  ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+    
+  li {
+      display: center;
+      margin-right: 10px;
+  }
+    
+  a {
+      color: #fff;
+      text-decoration: none;
+  }
+    
+  .social-icons a {
+      font-size: 20px;
+      margin-right: 10px;
+  }
+    
+  .contact a {
+      color: #fff;
+  }   
+}
